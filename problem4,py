@@ -1,0 +1,5 @@
+sp=list(map(int,input().split()))
+avg=0
+for i in range(len(sp)):
+    avg+=sp[i]
+print(avg/len(sp))
